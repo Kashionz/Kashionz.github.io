@@ -1,0 +1,384 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-user-select: none;
+  box-sizing: border-box;
+}
+
+.banner {
+  height: 50%;
+  position: absolute;
+  top: 60%;
+  left: 75%;
+  transform: translate(-70%, -70%);
+}
+
+.skill {
+  height: 200px;
+  width: 300px;
+  position: absolute;
+  bottom: 2%;
+  right: 0%;
+}
+
+.army {
+  height: 50%;
+  width: 40%;
+  position: absolute;
+  top: 60%;
+  left: 72%;
+  transform: translate(-70%, -70%);
+}
+
+.armyB {
+  height: 50%;
+  width: 40%;
+  position: absolute;
+  top: 60%;
+  left: 72%;
+  transform: translate(-70%, -70%);
+}
+
+.armyC {
+  height: 50%;
+  width: 40%;
+  position: absolute;
+  top: 60%;
+  left: 72%;
+  transform: translate(-70%, -70%);
+}
+
+.armyD {
+  height: 50%;
+  width: 40%;
+  position: absolute;
+  top: 60%;
+  left: 72%;
+  transform: translate(-70%, -70%);
+}
+
+.bars2021 {
+  height: 50%;
+  width: 40%;
+  position: absolute;
+  top: 60%;
+  left: 72%;
+  transform: translate(-70%, -70%);
+}
+
+.profileA {
+  height: 300px;
+  width: 300px;
+  top: 30%;
+  left: 10%;
+  position: absolute;
+  border-radius: 50%;
+  border: 5px solid rgb(255, 255, 255);
+}
+
+.profileB {
+  height: 300px;
+  width: 300px;
+  top: 30%;
+  left: 40%;
+  position: absolute;
+  border-radius: 50%;
+  border: 5px solid rgb(255, 255, 255);
+}
+
+.profileC {
+  height: 300px;
+  width: 300px;
+  top: 30%;
+  left: 70%;
+  position: absolute;
+  border-radius: 50%;
+  border: 5px solid rgb(255, 255, 255);
+}
+
+.section {
+  background-color: rgba(0, 0, 0, 0.6);
+  background-blend-mode: multiply;
+  background-image: url("./img/Russian.jpg");
+  background-size: cover;
+  background-position: center center;
+}
+
+.s8 {
+  background-color: rgba(77, 74, 74, 0.836);
+  background-image: none;
+}
+
+.section h1 {
+  font-size: 64px;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  background: linear-gradient(to left, white, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.section h2 {
+  font-size: 48px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+  background: linear-gradient(to left, white, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/*
+.s2{
+    background: linear-gradient(to left top, #cbcbcb, white);
+}
+*/
+
+.s2 h1 {
+  font-size: 78px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  background: linear-gradient(to left, white, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.s3 h1 {
+  font-size: 78px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  background: linear-gradient(to left, white, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.s4 h1 {
+  font-size: 78px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  background: linear-gradient(to left, white, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.s5 h1 {
+  font-size: 78px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  background: linear-gradient(to left, white, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.s6 h1 {
+  font-size: 78px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  background: linear-gradient(to left, white, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.s7 h1 {
+  font-size: 78px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  background: linear-gradient(to left, white, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.s6 p {
+  font-size: 32px;
+}
+
+.s7 p {
+  font-size: 32px;
+}
+
+.nameA {
+  top: 24%;
+  left: 13.5%;
+  position: absolute;
+}
+
+.nameA p {
+  font-size: 38px;
+  background: linear-gradient(to left, white, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nameB {
+  top: 24%;
+  left: 45%;
+  position: absolute;
+}
+
+.nameB p {
+  font-size: 38px;
+  background: linear-gradient(to left, white, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nameC {
+  top: 24%;
+  left: 75%;
+  position: absolute;
+}
+
+.nameC p {
+  font-size: 38px;
+  background: linear-gradient(to left, white, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.jobA {
+  top: 37.5%;
+  left: 26%;
+  position: absolute;
+}
+
+.jobA p {
+  font-size: 32px;
+  text-align: justify;
+  background: linear-gradient(to left, white, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.jobB {
+  top: 40%;
+  left: 56%;
+  position: absolute;
+}
+
+.jobB p {
+  font-size: 32px;
+  text-align: justify;
+  background: linear-gradient(to left, white, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.jobC {
+  top: 40%;
+  left: 86%;
+  position: absolute;
+}
+
+.jobC p {
+  font-size: 32px;
+  text-align: justify;
+  background: linear-gradient(to left, white, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.description {
+  margin: 20%;
+  width: 50%;
+  margin-left: 5%;
+  font-size: 38px;
+  text-align: justify;
+  background: linear-gradient(to left, white, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.description p {
+  margin: 50px 0px;
+}
+
+.wrapper {
+  top: 63%;
+  left: 12.5%;
+  position: absolute;
+  display: inline-flex;
+}
+.wrapper .icon {
+  margin: 0 20px;
+  text-align: center;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .icon a {
+  display: block;
+  height: 60px;
+  width: 60px;
+  background: #fff;
+  border-radius: 50%;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .icon a i {
+  line-height: 60px;
+  font-size: 25px;
+}
+.wrapper .icon .tooltip {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  background: #fff;
+  color: #fff;
+  padding: 10px 18px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 25px;
+  opacity: 0;
+  pointer-events: none;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .icon:hover .tooltip {
+  top: -70px;
+  opacity: 1;
+  pointer-events: auto;
+}
+.icon .tooltip:before {
+  position: absolute;
+  content: "";
+  height: 15px;
+  width: 15px;
+  background: #fff;
+  left: 50%;
+  bottom: -6px;
+  transform: translateX(-50%) rotate(45deg);
+  transition: 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.wrapper .icon:hover a {
+  color: #fff;
+}
+.wrapper .icon:hover a,
+.wrapper .icon:hover .tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
+}
+.wrapper .twitter:hover a,
+.wrapper .twitter:hover .tooltip,
+.wrapper .twitter:hover .tooltip:before {
+  background: #46c1f6;
+}
+.wrapper .github:hover a,
+.wrapper .github:hover .tooltip,
+.wrapper .github:hover .tooltip:before {
+  background: #333;
+}
