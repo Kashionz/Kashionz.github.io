@@ -77,7 +77,9 @@ new fullpage('#fullpage', {
             const jobC = document.querySelector(".jobC");
             const wrapper = document.querySelector(".wrapper");
 
-            tl.fromTo([profileA, profileB, profileC, nameA, nameB, nameC, jobA, jobB, jobC], 0.5, { y: "50", opacity: 0 }, { y: 0, opacity: 1 })
+            tl.fromTo([profileA, nameA, jobA], 0.5, { y: "50", opacity: 0 }, { y: 0, opacity: 1 })
+            .fromTo([profileB, nameB, jobB], 0.5, { y: "50", opacity: 0 }, { y: 0, opacity: 1 })
+            .fromTo([profileC, nameC, jobC], 0.5, { y: "50", opacity: 0 }, { y: 0, opacity: 1 })
             .fromTo(wrapper, 0.5, { y: "50", opacity: 0 }, { y: 0, opacity: 1 });
         }
     }
