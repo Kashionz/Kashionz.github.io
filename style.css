@@ -197,6 +197,27 @@
   -webkit-text-fill-color: transparent;
 }
 
+.s10 h1 {
+  font-size: 400%;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  background: linear-gradient(to left, white, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.s10 .description {
+  margin: 80%;
+  width: 80%;
+  margin-left: 5%;
+  font-size: 250%;
+}
+
+.s10 p {
+  margin: 10px 0px;
+}
+
 .s6 p {
   font-size: 80%;
 }
